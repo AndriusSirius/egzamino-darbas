@@ -36,7 +36,7 @@
 
                     <div class="shadow w-full bg-grey-light mt-2">
                         <div class="bg-teal text-xs leading-none py-1 text-center text-white"
-                            style="width: 25%; background-color:blue;">Autobusų nuoma: 25%
+                            style="width: 30%; background-color:blue;">Autobusų nuoma: 25%
                         </div>
                     </div>
 
@@ -50,7 +50,7 @@
 
                     <div class="shadow w-full bg-grey-light mt-2">
                         <div class="bg-orange text-xs leading-none py-1 text-center text-white"
-                            style="width: 30%; background-color:blue;">Dviračių nuoma: 30%
+                            style="width: 34%; background-color:blue;">Dviračių nuoma: 30%
                         </div>
                     </div>
 
