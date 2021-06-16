@@ -28,7 +28,7 @@
                     </h2>
 
                     <section class="pt-8 px-4">
-                        <div class="bg-white rounded flex flex-wrap overflow-hidden sm:-mx-1">
+                        <div class="mb-52 bg-white rounded flex flex-wrap overflow-hidden sm:-mx-1">
 
                             <div class="mb-96 border-b-2 w-full overflow-hidden sm:my-1 sm:px-1">
 
