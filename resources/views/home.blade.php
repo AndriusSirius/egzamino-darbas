@@ -18,7 +18,7 @@
             </div>
         </div>
 
-        <div class="flex flex-wrap -mx-2 overflow-hidden xl:-mx-1 ml-10 py-12 mt-4">
+        <div class="flex flex-wrap -mx-2 overflow-hidden -mx-1 ml-10 py-12 mt-4">
 
             <div class="my-2 px-2 w-1/3 overflow-hidden xl:my-1 xl:px-1 xl:w-1/3">
                 <h2 class="font-bold text-3xl mb-4">Statistika</h2>
@@ -62,6 +62,46 @@
                 </div>
 
             </div>
+
+            </div>
+            <div class="bg-gray-200">
+                <div class="flex flex-wrap overflow-hidden xl:-mx-2">
+                    <div class="w-full overflow-hidden xl:my-6 xl:px-6 xl:w-1/3">
+                        <div class="sm:px-6 lg:px-8">
+                            <div class="text-6xl text-center"><i class="fas fa-truck"></i></div>
+                            <br>
+                            <p class="font-bold text-lg text-center">Lorem, ipsum.</p>
+                            <br>
+                            <p class="text-center text-sm">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                Corrupti, vero!!</p>
+                        </div>
+                    </div>
+
+                    <div class="w-full overflow-hidden xl:my-6 xl:px-6 xl:w-1/3">
+                        <div class="sm:px-6 lg:px-8">
+                            <div class="text-6xl text-center"><i class="fas fa-headphones-alt"></i></div>
+                            <br>
+                            <p class="font-bold text-lg text-center">Lorem, ipsum.</p>
+                            <br>
+                            <p class="text-center text-sm">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                Dolor, omnis.</p>
+                        </div>
+                    </div>
+
+                    <div class="w-full overflow-hidden xl:my-6 xl:px-6 xl:w-1/3">
+                        <div class="sm:px-6 lg:px-8">
+                            <div class="text-6xl text-center"><i class="far fa-thumbs-up"></i></div>
+                            <br>
+                            <p class="font-bold text-lg text-center">Lorem, ipsum.</p>
+                            <br>
+                            <p class="text-center text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Natus, sed?.</p>
+                        </div>
+                    </div>
+
+
+                </div>
+
 
         </div>
 
