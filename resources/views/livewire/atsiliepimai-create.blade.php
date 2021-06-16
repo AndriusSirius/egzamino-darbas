@@ -65,7 +65,7 @@
     </div>
 
     <button type="submit" wire:click.prevent="save()"
-        class="w-52 border-2 px-6 py-3 font-bold bg-blue-300 rounded hover:bg-red-700 focus:outline-none focus:shadow-outline">
+        class="w-52 border-2 px-6 py-3 font-bold rounded-md bg-blue-500 hover:bg-red-700 focus:outline-none focus:shadow-outline">
         Siųsti atsiliepimą
     </button>
 </form>

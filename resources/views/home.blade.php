@@ -1,29 +1,69 @@
 <x-guest-layout>
-    <x-slot name="header">
-        <h2 class="font-semibold text-xl text-gray-800 leading-tight">
-            {{ __('Titulinis') }}
-        </h2>
-    </x-slot>
-
     <div class="container mx-auto">
 
-        <div class="bg-gray-200 shadow-2xl rounded-lg text-center ml-10 py-12 mt-4">
-            <h2 class="m-4 p-4 text-2xl font-bold text-black">
+        <div class="bg-gray-200 shadow-2xl rounded-lg text-left ml-10 py-12 mt-4">
+            <h2 class="m-4 p-4 text-4xl font-bold text-black">
                 Paslaugos
             </h2>
             <h2 class="m-4 p-4 text-base font-bold text-black">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Id distinctio ipsam rerum aspernatur expedita nam.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Id distinctio ipsam rerum aspernatur expedita
+                nam.
             </h2>
-            <div class="mt-8 flex ml-10 justify-center">
-                <div class="inline-flex rounded-md bg-black shadow">
-                    <a href="{{ route('atsiliepimai') }}" class="text-blue-700 font-bold py-2 px-6">
+            <div class="m-4 p-4 flex">
+                <div class="inline-flex rounded-md bg-blue-700 shadow">
+                    <a href="{{ route('atsiliepimai') }}" class="text-white font-bold py-2 px-6">
                         Palikite atsiliepimą
                     </a>
                 </div>
             </div>
         </div>
 
-    </div>
+        <div class="flex flex-wrap -mx-2 overflow-hidden xl:-mx-1 ml-10 py-12 mt-4">
+
+            <div class="my-2 px-2 w-1/3 overflow-hidden xl:my-1 xl:px-1 xl:w-1/3">
+                <h2 class="font-bold text-3xl mb-4">Statistika</h2>
+                <p class="text-sm mb-14">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit laudantium iste
+                    maxime possimus sequi quis harum in quidem optio, fugiat aliquam? Nemo eaque fuga corrupti!</p>
+                <div class="w-full">
+
+                    <div class="shadow w-full bg-grey-light">
+                        <div class="bg-blue text-xs leading-none py-1 text-center text-white"
+                            style="width: 45%; background-color:blue;">45%
+                        </div>
+                    </div>
+
+
+                    <div class="shadow w-full bg-grey-light mt-2">
+                        <div class="bg-teal text-xs leading-none py-1 text-center text-white"
+                            style="width: 55%; background-color:blue;">55%
+                        </div>
+                    </div>
+
+
+                    <div class="shadow w-full bg-grey-light mt-2">
+                        <div class="bg-orange text-xs leading-none py-1 text-center text-white"
+                            style="width: 65%; background-color:blue;">65%
+                        </div>
+                    </div>
+
+                    <div class="mt-5 inline-flex rounded-md bg-blue-700 shadow">
+                        <a href="" class="text-white font-bold py-2 px-6">
+                            Plačiau..
+                        </a>
+                    </div>
+                </div>
+
+                <div class="my-2 px-2 w-1/3 overflow-hidden my-1 px-1 w-1/3">
+
+                </div>
+
+                <div class="my-2 px-2 w-1/3 overflow-hidden xl:my-1 xl:px-1 xl:w-1/3">
+
+                </div>
+
+            </div>
+
+        </div>
 
 
 </x-guest-layout>
