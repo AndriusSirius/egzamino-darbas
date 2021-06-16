@@ -1,4 +1,9 @@
 <x-guest-layout>
+    <x-slot name="header">
+        <h2 class="font-semibold text-xl text-gray-800 leading-tight">
+            {{ __('Teikiamos paslaugos') }}
+        </h2>
+    </x-slot>
     <div class="container mx-auto">
 
         <div class="bg-gray-200 shadow-2xl rounded-lg text-left ml-10 py-12 mt-4">
