@@ -28,21 +28,28 @@
 
                     <div class="shadow w-full bg-grey-light">
                         <div class="bg-blue text-xs leading-none py-1 text-center text-white"
-                            style="width: 45%; background-color:blue;">45%
+                            style="width: 75%; background-color:blue;">Skrydžiai: 75%
                         </div>
                     </div>
 
 
                     <div class="shadow w-full bg-grey-light mt-2">
                         <div class="bg-teal text-xs leading-none py-1 text-center text-white"
-                            style="width: 55%; background-color:blue;">55%
+                            style="width: 25%; background-color:blue;">Autobusų nuoma: 25%
                         </div>
                     </div>
 
 
                     <div class="shadow w-full bg-grey-light mt-2">
                         <div class="bg-orange text-xs leading-none py-1 text-center text-white"
-                            style="width: 65%; background-color:blue;">65%
+                            style="width: 55%; background-color:blue;">Automobilių nuoma: 55%
+                        </div>
+                    </div>
+
+
+                    <div class="shadow w-full bg-grey-light mt-2">
+                        <div class="bg-orange text-xs leading-none py-1 text-center text-white"
+                            style="width: 30%; background-color:blue;">Dviračių nuoma: 30%
                         </div>
                     </div>
 
@@ -65,7 +72,7 @@
 
             </div>
             <div class="bg-gray-200">
-                <div class="flex flex-wrap overflow-hidden xl:-mx-2">
+                <div class="mb-10 flex flex-wrap overflow-hidden xl:-mx-2">
                     <div class="w-full overflow-hidden xl:my-6 xl:px-6 xl:w-1/3">
                         <div class="sm:px-6 lg:px-8">
                             <div class="text-6xl text-center"><i class="fas fa-truck"></i></div>
