@@ -4,9 +4,22 @@
             {{ __('Atsiliepimų puslapis') }}
         </h2>
     </x-slot>
-        <div class="container mx-auto">
 
-            @livewire('atsiliepimai-create')
+        <div class="container mx-auto">
+            <ul class="block w-11/12 my-14 mx-auto" x-data="{selected:null}">
+                <li class="flex align-center flex-col">
+                    <h4 @click="selected !== 0 ? selected = 0 : selected = null"
+                        class="py-4 border-solid border-2 border-blue-700 cursor-pointer px-5 py-3 bg-white text-blue-700 text-left inline-block hover:opacity-75 hover:shadow hover:-mb-3 rounded-t"><i class="fas fa-plus"></i>+ Rašyti atsiliepimą
+                        </h4>
+                    <div x-show="selected == 0" class="border py-4 px-2">
+                        <ul class="ml-4">
+                            @livewire('atsiliepimai-create')
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="container mx-auto">
 
             <div class="flex justify-center">
                 <div class="container mx-auto px-4">
